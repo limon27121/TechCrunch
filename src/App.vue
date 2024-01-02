@@ -1,25 +1,7 @@
-<template>
- 
-  <!-- <img src="@/assets/background.png" alt="Background" class="w-full h-full object-cover" />
-   -->
-   <div class="flex flex-row items-center justify-items-center">
-  <div>
-    <img class="w-10" src="@/assets/logo.png" alt="Logo">
-  </div>
-  <div class="flex items-center justify-items-center mx-auto">
-    <h1 class="text-red-500 font-extrabold">Welcome To TechCrunch</h1>
-  </div>
-</div>
-
-
-
-
-
-    
+<template>   
  <navigation/>
   <router-view/>
 
- 
 </template>
 <script>
 import Navigation from "./components/Navigation";
