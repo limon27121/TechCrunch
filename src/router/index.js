@@ -7,6 +7,11 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: HomeView
+  },
   // {
   //   path: '/about',
   //   name: 'about',

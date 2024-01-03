@@ -2,6 +2,9 @@
  <navigation/>
 
   <router-view/>
+  <body>
+    <Blogpost/>
+  </body>
 
   <Footer/>
 
@@ -10,8 +13,9 @@
 <script>
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import Blogpost from "./components/Blogpost";
 export default {
-  components: { Navigation,Footer},
+  components: { Navigation,Footer,Blogpost},
   data() {
     return {
      
